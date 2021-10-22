@@ -3,6 +3,10 @@ package main
 import (
 	"errors"
 	"fmt"
+	"log"
+	"net/http"
+	"os"
+
 	"github.com/blevesearch/bleve"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
 	"github.com/robotomize/ohmytimebot/buildinfo"
@@ -10,9 +14,6 @@ import (
 	"github.com/robotomize/ohmytimebot/internal/logging"
 	"github.com/robotomize/ohmytimebot/internal/shutdown"
 	"github.com/sethvargo/go-envconfig"
-	"log"
-	"net/http"
-	"os"
 )
 
 type Config struct {
