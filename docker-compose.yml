@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+  ohmytime-bot:
+    image: robotomize/ohmytime-bot:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: ohmytime-bot
+    restart: always
+    environment:
+      ADDR: :8282
+      TELEGRAM_TOKEN: YourToken
+      PATH_TO_INDEX: ./bin/cities.idx
+    ports:
+      - "8283:8282"
