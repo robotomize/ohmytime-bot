@@ -7,7 +7,7 @@ require (
 	github.com/enescakir/emoji v1.0.0
 	github.com/go-telegram-bot-api/telegram-bot-api v4.6.4+incompatible
 	github.com/sethvargo/go-envconfig v0.3.5
-	go.uber.org/zap v1.19.1
+	go.uber.org/zap v1.26.0
 )
 
 require (
@@ -32,7 +32,6 @@ require (
 	github.com/tinylib/msgp v1.1.0 // indirect
 	github.com/willf/bitset v1.1.10 // indirect
 	go.etcd.io/bbolt v1.3.5 // indirect
-	go.uber.org/atomic v1.7.0 // indirect
-	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
 )
