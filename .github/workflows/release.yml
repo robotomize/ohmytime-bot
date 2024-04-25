@@ -60,7 +60,7 @@ jobs:
             ${{ runner.os }}-go-
 
       - name: go-lint
-        uses: golangci/golangci-lint-action@v4
+        uses: golangci/golangci-lint-action@v5
         with:
           version: 'v1.40.1'
           skip-go-installation: true
