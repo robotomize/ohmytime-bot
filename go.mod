@@ -6,7 +6,7 @@ require (
 	github.com/blevesearch/bleve v1.0.14
 	github.com/enescakir/emoji v1.0.0
 	github.com/go-telegram-bot-api/telegram-bot-api v4.6.4+incompatible
-	github.com/sethvargo/go-envconfig v1.0.0
+	github.com/sethvargo/go-envconfig v1.0.3
 	go.uber.org/zap v1.27.0
 )
 
